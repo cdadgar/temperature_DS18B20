@@ -17,6 +17,11 @@
  *  note: if using the transistor packaging, don't place it too close to the cpu, since
  *  the cpu emits heat, and your readings will be off.
  *  
+ *  multiple sensors can be added on the same 1-wire bus
+ *  
+ *  not sure of the maximum length of the wire between the sensor and the cpu
+ *  
+ *  
  * libraries:
  * OneWire - https://github.com/PaulStoffregen/OneWire (git)
  * DallasTemperature - https://github.com/milesburton/Arduino-Temperature-Control-Library (git)
